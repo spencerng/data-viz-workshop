@@ -1,0 +1,38 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 2em;
+}
+
+
+
+h2 {
+  text-align: center;
+}
+
+.graph {
+  min-height: 15em;
+  margin: auto;
+  align: center;
+  height: auto;
+  display: flex;
+}
+.column {
+  margin: auto;
+}
