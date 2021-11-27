@@ -1,30 +1,28 @@
+<!-- For the workshop code, go to https://glitch.com/edit/#!/nettle-confused-seal -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <title>Hello world!</title>
-
-    <!-- import the webpage's stylesheet -->
+    <title>My First Data Viz</title>
     <link rel="stylesheet" href="/style.css" />
 
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <!-- parsing and visualizations libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script src="./papaparse.min.js"></script>
   </head>
   <body>
-    <!-- this is the start of content -->
-    <h1>
-      Hello World!
-    </h1>
-    <p>
-      This starter gives you everything you need to start working on a new
-      website, and nothing more. If you're looking for something a little more
-      opinionated, try remixing
-      <a href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-        >~glitch-hello-website</a
-      >.
-    </p>
+    <h2>
+      Data Visualizations
+    </h2>
+    <canvas id="myGraph" class="graph"> </canvas>
+    <canvas id="myGraph2" class="graph"> </canvas>
+    <canvas id="myGraph3" class="graph"> </canvas>
+    <canvas id="myGraph4" class="graph"> </canvas>
+    <canvas id="myGraph5" class="graph"> </canvas>
   </body>
+
+  <script src="./finished_script.js"></script>
+  <!--script src="./workshop_script.js"></script-->
 </html>

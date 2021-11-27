@@ -1,4 +1,10 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+var graph = document.getElementById("myGraph").getContext("2d");
 
-console.log("Hello, world!");
+new Chart(graph, {
+  type: "bar",
+  data: {
+    labels: ["11/12", "11/13", "11/14"],
+    dataset: [{data: [1, 2, 3]}]
+  }
+  
+})

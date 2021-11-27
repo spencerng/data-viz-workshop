@@ -17,15 +17,22 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
+  padding: 2em;
 }
 
-/* images and videos max out at full width */
-img,
-video {
+
+
+h2 {
+  text-align: center;
+}
+
+.graph {
+  min-height: 15em;
+  margin: auto;
+  align: center;
   height: auto;
-  max-width: 100%;
+  display: flex;
 }
-
-h1 {
-  color: #ff0000;
+.column {
+  margin: auto;
 }
