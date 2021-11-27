@@ -18,4 +18,4 @@ CSV and JSON datasets are hosted through [Glitch](https://glitch.com).
 
 * [Remix this project on Glitch](https://glitch.com/edit/#!/data-viz-makes)
 * [Live site](https://spencerng.me/data-viz-workshop)
-* [Workshop slides (with dataset links)](https://docs.google.com/presentation/d/1VHtE7ewHNUzaws-eKCvDMk5ljij8-OvHeHlUC9TBl7s/edit?usp=sharing)
+* [Workshop slides (with dataset links)](https://docs.google.com/presentation/d/e/2PACX-1vSpkr17X9jTmgi_q2QD4KYsqkocVQDhoWxOosjoOA8rfRy7BZxzKZ-_RH-TIZfDrXBsfwpOwIN9s5Vd/pub?start=false&loop=false&delayms=60000)
